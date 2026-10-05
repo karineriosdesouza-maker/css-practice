@@ -1,3 +1,5 @@
+body { background-color: rgb(131, 130, 130); }
+
 p {
   color: blue;
 }
@@ -6,4 +8,35 @@ p {
 }
 #special {
   font-weight: bold;
+}
+* {
+  font-family: Arial, sans-serif;
+}
+h1 {
+  color: purple;
+}
+.btn.big {
+  font-size: 24px;
+}
+.card p {
+  color: green;
+  background: white;
+}
+h1 {
+  text-align: center;        /* left, center, right */
+  font-size: 40px;           /* text size */
+  background-color: pink;    /* color behind the element */
+}
+button {
+  color: white;
+  background: black;
+}
+.welcome {
+  text-align: center;
+}
+
+.card.product {
+  background-color: lightyellow;
+  border: 2px solid pink;
+  width: 250px;
 }
